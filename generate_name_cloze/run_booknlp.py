@@ -13,8 +13,8 @@ model_params={
     
 booknlp=BookNLP("en", model_params)
 
-input_file=sys.argv[1]
-output_id=sys.argv[2]
+input_file= "A_tramp_abroad.txt"
+output_id= "A_tramp_abroad"
 
 with open(input_file) as file:
 
